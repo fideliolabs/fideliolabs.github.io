@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fidelio.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Calendly Embed Script -->
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        html, body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .font-heading {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        /* Blob Images */
+        .blob {
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            background-size: cover;
+            background-position: center;
+            mix-blend-mode: screen;
+            z-index: -1;
+        }
+
+        /* Blob Image Paths */
+        .blob-1 {
+            top: -35px;
+            left: -190px;
+            background-image: url('blob1.png') !important;
+        }
+
+        .blob-2 {
+            top: 200px;
+            right: -300px;
+            background-image: url('blob2.png') !important;
+        }
+
+        .arrow {
+            position: absolute;
+            top: 75%;
+            right: 27%;
+            transform: rotate(-20deg) scaleX(-1);
+        }
+    </style>
+</head>
+
+<body class="">
+    <!-- Banner Section -->
+     <!-- bg-gradient-to-r from-blue-500 to-purple-600 -->
+    <div class="py-20 mb-2">
+        <div class="relative max-w-4xl mx-auto px-4 text-center">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+
+            <div class="flex justify-center mb-6">
+                <div class="flex items-center">
+                    <img src="north-star.png" alt="Logo" class="w-16 h-16">
+                    <h1 class="text-4xl font-bold font-heading ml-3">
+                        fidelio.
+                    </h1>
+                </div>
+            </div>
+            <div class="text-lg font-heading mb-8">
+                <p class="text-lg max-w-lg m-auto">
+                    Unlock the full potential of your content with our services. Our expert team transforms raw footage into captivating visual stories that engage and convert.
+                </p>
+                <p class="text-lg max-w-lg m-auto mt-6">
+                    Whether you're creating <strong>UGC ads</strong>, <strong>Direct Response Social Ads</strong>, or <strong>long-form YouTube content</strong>, our services are designed to meet your needs.
+                </p>
+            </div>
+            <!-- Curved Arrow -->
+            <div class="arrow">
+                <img src="arrow.png" alt="Arrow" class="w-24">
+            </div>
+            <a href="#book-a-call" style="background-color: #FF5B42;" class="font-heading inline-block mt-6 px-8 py-4 shadow-md border text-white tracking-wide rounded-full hover:bg-gray-50 font-bold">
+                BOOK A CALL
+            </a>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="max-w-4xl mx-auto px-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
+            <!-- Card 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg border">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-2 font-heading">Comprehensive Video Editing</h2>
+                <p class="text-gray-600 mb-4">
+                    From short-form clips to extensive documentaries, we excel at crafting seamless narratives that resonate with your audience.
+                </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg border">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-2 font-heading">UGC Ads and Direct Response</h2>
+                <p class="text-gray-600 mb-4">
+                    Amplify your brand's message with eye-catching ads that drive engagement and action.
+                </p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg border">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-2 font-heading">YouTube SEO</h2>
+                <p class="text-gray-600 mb-4">Boost your visibility on YouTube with optimized content that ranks higher and reaches wider audiences.</p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg border">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-2 font-heading">Affordable Video Editing Solutions</h2>
+                <p class="text-gray-600 mb-4">
+                    Quality doesn't have to break the bank. Our services offer competitive pricing for all your needs.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ Section -->
+    <div class="max-w-4xl mx-auto px-4 mt-16">
+        <h2 class="text-3xl font-bold text-gray-800 mb-8 font-heading">Frequently Asked Questions</h2>
+        <div class="space-y-6">
+            <!-- Question 1 -->
+            <div>
+                <h3 class="text-xl font-semibold text-gray-800 mb-2 font-heading">What do I need to give you to get started?</h3>
+                <p class="text-gray-600">
+                    Once you pay for your subscription you'll receive onboarding information from your dedicated account manager. We will then work with you to articulate your requests for our team to start working on.
+                </p>
+            </div>
+
+            <!-- Question 2 -->
+            <div>
+                <h3 class="text-xl font-semibold text-gray-800 mb-2 font-heading">Is there a limit on file size?</h3>
+                <p class="text-gray-600">
+                    No limits! You can share clips via Google Drive, Dropbox, or ship a hard drive.
+                </p>
+            </div>
+
+            <!-- Question 3 -->
+            <div>
+                <h3 class="text-xl font-semibold text-gray-800 mb-2 font-heading">If I'm unhappy with the work, how do I get a refund?</h3>
+                <p class="text-gray-600">
+                    While you're welcome to cancel your subscription, we do not offer refunds. Request a cancelation in writing at least 48 hours before your subscription renews.
+                </p>
+            </div>
+
+            <!-- Question 4 -->
+            <div>
+                <h3 class="text-xl font-semibold text-gray-800 mb-2 font-heading">Why wouldn't I just hire a freelancer?</h3>
+                <p class="text-gray-600">
+                    You could, but quality, process, and communication are always a risk. In our experience, it often doesn’t end well unless you have ample experience managing freelancers, which is a headache in itself. We remove all the risk by managing the entire process and quality checks for you.
+                </p>
+            </div>
+
+            <!-- Question 5 -->
+            <div>
+                <h3 class="text-xl font-semibold text-gray-800 mb-2 font-heading">How do I communicate feedback/revisions?</h3>
+                <p class="text-gray-600">
+                    We use Frame.io for feedback and revisions. If bigger changes are needed, you can send feedback through Loom and chat in Slack.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Calendly Section -->
+     
+    <div id="book-a-call" class="max-w-4xl mx-auto px-4 mt-16 mb-16">
+        <h2 class="text-3xl font-bold text-gray-800 mb-8 font-heading">Schedule a Consultation</h2>
+        <!-- Calendly inline widget begin -->
+        <div class="calendly-inline-widget" data-url="https://calendly.com/fidelio/30min" style="min-width:320px;height:700px;"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <!-- Calendly inline widget end -->
+    </div>
+</body>
+
+</html>
